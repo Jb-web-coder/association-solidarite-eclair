@@ -10,3 +10,11 @@ function openDonation() {
 function closeDonation() {
   document.getElementById("donation-modal").style.display = "none";
 }
+document.getElementById("newsletter-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Merci pour votre abonnement !");
+});
+
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
