@@ -132,3 +132,23 @@ html {
 .cta-button:hover {
   background: #ffcc00;
 }
+.mission {
+  background: #fff;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.mission h2 {
+  color: #0077cc;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.mission p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #444;
+}
